@@ -15,8 +15,12 @@ jobs:
         with:
           path: .
 
+      - name: Load settings
+        id: load_settings
+        run: echo "::set-output name=settings::$(cat .release-settings.json)"
+
       - name: Create Issue
         uses: onezerocompany/coding/actions/release-issues@main
         with:
           # read the release.json file and pass it as an input to the action
-          settings: "$(cat release.json)"
+          settings: ${{ steps.load_settings.outputs.settings }}
