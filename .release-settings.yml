@@ -1,0 +1,43 @@
+---
+alpha:
+  enabled: false
+  version:
+    template: "{{version}}-alpha"
+  requirements:
+    tests: []
+  release:
+    manual: true
+    waitForTracks: []
+    platforms:
+      - ios
+      - web
+    allowedUsers:
+      - lucasilverentand
+beta:
+  enabled: false
+  version:
+    template: "{{version}}-beta"
+  requirements:
+    tests: []
+  release:
+    manual: true
+    waitForTracks: []
+    platforms:
+      - ios
+      - web
+    allowedUsers:
+      - lucasilverentand
+release:
+  enabled: true
+  version:
+    template: "{{version}}"
+  requirements:
+    tests: []
+  release:
+    manual: true
+    waitForTracks: []
+    platforms:
+      - ios
+      - web
+    allowedUsers:
+      - lucasilverentand
