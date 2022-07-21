@@ -6,7 +6,7 @@ alpha:
   requirements:
     tests: []
   release:
-    manual: true
+    manual: false
     waitForTracks: []
     platforms:
       - ios
