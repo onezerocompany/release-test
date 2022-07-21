@@ -14,7 +14,7 @@ alpha:
     allowedUsers:
       - lucasilverentand
 beta:
-  enabled: true
+  enabled: false
   version:
     template: "{{version}}-beta"
   requirements:
