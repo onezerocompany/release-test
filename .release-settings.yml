@@ -1,6 +1,6 @@
 ---
 alpha:
-  enabled: false
+  enabled: true
   version:
     template: "{{version}}-alpha"
   requirements:
@@ -14,7 +14,7 @@ alpha:
     allowedUsers:
       - lucasilverentand
 beta:
-  enabled: false
+  enabled: true
   version:
     template: "{{version}}-beta"
   requirements:
@@ -27,7 +27,7 @@ beta:
       - web
     allowedUsers:
       - lucasilverentand
-release:
+live:
   enabled: true
   version:
     template: "{{version}}"
