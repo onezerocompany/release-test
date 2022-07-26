@@ -1,9 +1,8 @@
 name: Release Tracker Update
 
 on:
-  issue_comment:
+  issues:
     types:
-      - "created"
       - "edited"
 
 jobs:
