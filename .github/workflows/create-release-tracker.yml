@@ -6,8 +6,8 @@ on:
       - main
 
 jobs:
-  create:
-    name: Create Issue
+  create_release_tracker:
+    name: Create Release Tracker
     runs-on: ubuntu-latest
     steps:
       - name: Clone Repository
