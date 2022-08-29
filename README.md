@@ -1,4 +1,4 @@
 # release-test
 
 Testing the release tracker action
-change: 2
+change: 3
