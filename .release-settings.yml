@@ -1,4 +1,6 @@
 ---
+users:
+  - lucasilverentand
 alpha:
   enabled: true
   version:
